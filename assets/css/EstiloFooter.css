@@ -1,0 +1,145 @@
+/* EstiloFooter.css */
+.pie {
+    background-color: #5DADE2;
+    padding: 20px 0;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.sociales {
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+    margin-right: 20px;
+}
+
+.icono {
+    margin-right: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.icono img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+}
+
+.icono span {
+    color: #FFFFFF;
+}
+
+.icono:hover img {
+    transform: scale(1.2);
+}
+
+.icono:hover {
+    color: #FFFFFF;
+    background-color: #3498DB;
+    padding: 10px;
+    border-radius: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
+}
+
+.contacto {
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo1 {
+    width: 100%;
+    margin: 0;
+    color: #1F618D; 
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.subtitulo {
+    color: #3498DB;
+    font-weight: bold;
+}
+
+.lista li {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.lista span {
+    color: #2980B9;
+}
+
+.nosotros {
+    text-align: center;
+}
+
+.enlace {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.enlace img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.enlace span {
+    margin-top: 5px;
+}
+
+.enlace:hover {
+    color: #FFFFFF;
+    background-color: #3498DB;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
+}
+
+.enlace:hover img {
+    transform: scale(1.2);
+}
+
+.enlace a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.enlace a:hover {
+    color: #2980B9;
+    background-color: #F2F2F2;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
+}
+
+.texto {
+    margin-top: 20px;
+    font-size: 14px;
+}

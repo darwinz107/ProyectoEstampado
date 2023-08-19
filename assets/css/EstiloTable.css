@@ -1,0 +1,88 @@
+/* EstiloFooter.css */
+/* Estilos para la tabla */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorT {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #b2b2b2;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #b2b2b2;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: #5DADE2;
+    color: white;
+}
+
+td a {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #5DADE2;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+td a:hover {
+    background-color: #82C4E9;
+    cursor: pointer;
+}
+
+.btn-nuevo {
+    display: block;
+    margin: 20px auto; 
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #27AE60;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center; 
+    max-width: 100px;
+}
+
+.btn-nuevo:hover {
+    background-color: #2ECC71;
+    cursor: pointer;
+}  
+
+.contenedorT h2 {
+    text-align: center;
+    background-color: #4682B4; 
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-editar {
+    background-color: #E74C3C; 
+}
+
+.btn-editar:hover {
+    background-color: #C0392B;
+}
+
+.btn-eliminar {
+    background-color: #FF5733; 
+}
+
+.btn-eliminar:hover {
+    background-color: #D35400; 
+}

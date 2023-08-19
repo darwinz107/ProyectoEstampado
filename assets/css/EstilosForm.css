@@ -1,0 +1,118 @@
+/* EstilosForm.css */
+
+.contenedorF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: #F2F2F2;
+}
+
+.formulario-card {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo-form {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #3498DB;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.formulario h3 {
+    color: #4682B4;
+    font-size: 22px;
+    background-color: #F0F3FF;
+    font-style: italic;
+    padding: 10px;
+    margin: 0;
+}
+
+.principal {
+    font-weight: bold;
+    font-style: italic;
+    color: #4AA3DF;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario input[type="email"],
+.formulario select{
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.radio-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.radio-buttons label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.formulario input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.botones {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; 
+}
+
+.botones button,
+.botones a {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botones button {
+    background-color: #4AA3DF;
+}
+
+.botones a {
+    background-color: #BDBDBD;
+}
+
+.botones button:hover,
+.botones a:hover {
+    background-color: #357CA3;
+}

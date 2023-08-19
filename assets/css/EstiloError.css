@@ -1,0 +1,19 @@
+/* Estilo para los mensajes de alerta */
+.alert {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Estilo para mensajes de éxito */
+.alert-success {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Estilo para mensajes de error */
+.alert-danger {
+    background-color: #dc3545;
+    color: white;
+}
